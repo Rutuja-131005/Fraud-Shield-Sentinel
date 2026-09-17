@@ -1,0 +1,6 @@
+{
+  "name": "FraudShield AI",
+  "description": "Production-grade AI fraud-risk detection and analyst investigation platform powered by dual XGBoost and Isolation Forest scoring engines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #faf8ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedff;
+  --color-surface-container-high: #e2e7ff;
+  --color-surface-container-highest: #dae2fd;
+  --color-on-surface: #131b2e;
+  --color-on-surface-variant: #444653;
+
+  --color-primary: #00288e;
+  --color-primary-container: #1e40af;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #a8b8ff;
+  --color-primary-fixed: #dde1ff;
+  --color-on-primary-fixed: #001453;
+
+  --color-secondary: #bb0112;
+  --color-secondary-container: #e02928;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #fffbff;
+  --color-secondary-fixed: #ffdad6;
+  --color-on-secondary-fixed: #410002;
+
+  --color-tertiary: #532a00;
+  --color-tertiary-container: #743d00;
+  --color-on-tertiary-container: #ffa85d;
+  --color-tertiary-fixed: #ffdcc3;
+  --color-tertiary-fixed-dim: #ffb77d;
+  --color-on-tertiary-fixed-variant: #6e3900;
+
+  --color-outline: #757684;
+  --color-outline-variant: #c4c5d5;
+
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.font-mono-data {
+  font-family: var(--font-mono);
+}
